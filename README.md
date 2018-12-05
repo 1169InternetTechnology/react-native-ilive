@@ -37,6 +37,9 @@
 #### Windows
 [Read it! :D](https://github.com/ReactWindows/react-native)
 
+
+
+
 1. In Visual Studio add the `RNIlive.sln` in `node_modules/react-native-ilive/windows/RNIlive.sln` folder to their solution, reference from their app.
 2. Open up your `MainPage.cs` app
   - Add `using Ilive.RNIlive;` to the usings at the top of the file
@@ -50,4 +53,9 @@ import RNIlive from 'react-native-ilive';
 // TODO: What to do with the module?
 RNIlive;
 ```
-  
+## Introduction
+
+This library is a React Native packaging for Tencent's ilive native source codes(腾讯实时音视频). 
+Please refer to below link for Tencent RTC service:
+https://cloud.tencent.com/product/trtc/developer
+
